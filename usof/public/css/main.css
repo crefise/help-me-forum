@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: monospace;
+}
+
+.sitecap {
+  height: 50px;
+}
+.sitecap .main-sitecap {
+  color: #777272;
+  background-color: rgba(85, 102, 100, 0.234);
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.sitecap .main-sitecap .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+.sitecap .main-sitecap a {
+  color: #777272;
+  border: none;
+  background: none;
+  outline: none;
+  text-decoration: none;
+  box-shadow: none;
+  width: 100%;
+  height: 100%;
+}
+.sitecap .main-sitecap a .element {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-left: 1px #777272 solid;
+  height: 100%;
+  width: 100%;
+}
+.sitecap .main-sitecap a .element:hover {
+  transition: 0.5s;
+  background-color: rgba(85, 102, 100, 0.111);
+}

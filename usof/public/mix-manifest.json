@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/pages/welcome.js": "/js/pages/welcome.js",
+    "/js/pages/login.js": "/js/pages/login.js",
+    "/js/pages/registration.js": "/js/pages/registration.js",
+    "/css/app.css": "/css/app.css",
+    "/css/main.css": "/css/main.css",
+    "/css/loginPage.css": "/css/loginPage.css"
+}
